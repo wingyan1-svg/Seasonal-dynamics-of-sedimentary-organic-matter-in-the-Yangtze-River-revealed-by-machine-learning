@@ -8,7 +8,7 @@
   - Sample IDs
 - **Usage:** Used for detailed molecular composition analysis of DOM.
 
-- ### 2. `Bulk_parameter.xlsx` (or .csv)
+### 2. `Bulk_parameter.xlsx` (or .csv)
 - **Description:** Bulk chemical and physical parameters measured for the samples.
 - **Contents:**
   - Total Organic Carbon (TOC)
