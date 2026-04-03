@@ -4,8 +4,8 @@
 - **Description:** Raw Fourier Transform Ion Cyclotron Resonance Mass Spectrometry (FT-ICR MS) data of SOM.
 - **Sheets:**
   1. **Intensity weighted parameter** – Sample molecular parameters (e.g., H/C, O/C, DBE, NOSC, AImod) calculated using intensity weighted averages.
-  2. **M02_wet** – Detailed FT-ICR MS molecular formula dataset for sample M02 in the wet season.
-  3. **M02_dry** – Detailed FT-ICR MS molecular formula dataset for sample M02 in the dry season.
+  2. **Wet season** – Detailed FT-ICR MS molecular formula dataset for sample M02 in the wet season.
+  3. **Dry season** – Detailed FT-ICR MS molecular formula dataset for sample M02 in the dry season.
 
 ### 2. `Bulk_parameter.xlsx` 
 - **Description:** Bulk chemicalparameters measured for the samples.
