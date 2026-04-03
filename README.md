@@ -3,20 +3,18 @@
 ### 1. `FT-ICR_MS_DATA.xlsx`
 - **Description:** Raw Fourier Transform Ion Cyclotron Resonance Mass Spectrometry (FT-ICR MS) data of SOM.
 - **Sheets:**
-  1. **Intensity weighted parameter** – Sample-wise molecular parameters (e.g., H/C, O/C, DBE, NOSC, AImod) calculated using intensity-weighted averages for each sample.
-  2. **M02_wet** – Detailed FT-ICR MS molecular formula dataset for sample M02 in the wet season.
-  3. **M02_dry** – Detailed FT-ICR MS molecular formula dataset for sample M02 in the dry season.
+  1. **Intensity weighted parameter** – Sample molecular parameters (e.g., H/C, O/C, DBE, NOSC, AImod) calculated using intensity weighted averages.
+  2. **M02_wet** ： Detailed FT-ICR MS molecular formula dataset for sample M02 in the wet season.
+  3. **M02_dry** ：Detailed FT-ICR MS molecular formula dataset for sample M02 in the dry season.
 - **Usage:** 
 
-### 2. `Bulk_parameter.xlsx` (or .csv)
-- **Description:** Bulk chemical and physical parameters measured for the samples.
-- **Contents:**
-  - Total Organic Carbon (TOC)
+### 2. `Bulk_parameter.xlsx` 
+- **Description:** Bulk chemicalparameters measured for the samples.
+ -**Sheets:**
+  - Total Organic Carbon (OC)
   - Dissolved Organic Carbon (DOC)
-  - pH, conductivity, and other environmental variables
-  - Sample IDs
-- **Usage:** Provides context for interpreting FT-ICR MS results and correlating bulk parameters with molecular data.
-
+  - Total nitrogen (TN)
+  - 
 ### 3. `SHAP_data.xlsx` (or .csv)
 - **Description:** SHAP (SHapley Additive exPlanations) values derived from the predictive models.
 - **Contents:**
