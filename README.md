@@ -4,28 +4,19 @@
 - **Description:** Raw Fourier Transform Ion Cyclotron Resonance Mass Spectrometry (FT-ICR MS) data of SOM.
 - **Sheets:**
   1. **Intensity weighted parameter** – Sample molecular parameters (e.g., H/C, O/C, DBE, NOSC, AImod) calculated using intensity weighted averages.
-  2. **M02_wet** ： Detailed FT-ICR MS molecular formula dataset for sample M02 in the wet season.
-  3. **M02_dry** ：Detailed FT-ICR MS molecular formula dataset for sample M02 in the dry season.
-- **Usage:** 
+  2. **M02_wet** – Detailed FT-ICR MS molecular formula dataset for sample M02 in the wet season.
+  3. **M02_dry** – Detailed FT-ICR MS molecular formula dataset for sample M02 in the dry season.
 
 ### 2. `Bulk_parameter.xlsx` 
 - **Description:** Bulk chemicalparameters measured for the samples.
- -**Sheets:**
-  - Total Organic Carbon (OC)
-  - Dissolved Organic Carbon (DOC)
-  - Total nitrogen (TN)
-  - 
+-**Sheets:**
+   1. **Total Organic Carbon** (OC)
+   2. **Dissolved Organic Carbon** (DOC)
+   3. **Total nitrogen** (TN)
+    
 ### 3. `SHAP_data.xlsx` (or .csv)
-- **Description:** SHAP (SHapley Additive exPlanations) values derived from the predictive models.
-- **Contents:**
-  - Features used in the model
-  - SHAP values indicating feature importance per sample
-  - Sample IDs
-- **Usage:** Helps interpret the contributions of individual variables to model predictions.
-
-## Notes
-- All data are linked to sample IDs consistently across files.
-- Please cite: `[Your Article Citation]` if you use this dataset.
-
-## License
-Specify your license here, e.g., CC BY 4.0, MIT, etc.
+- **Description:** SHAP (SHapley Additive exPlanations) values derived from the SVM models.
+- **Sheets:**
+  1. **Wet-season-specific**: – SHAP values for Wet-season-specific molecule
+  2. **Dry-season-specific** – SHAP values for Dry-season-specific molecule
+  3. **seasonally shared** – SHAP values for Seasonally shared molecule
